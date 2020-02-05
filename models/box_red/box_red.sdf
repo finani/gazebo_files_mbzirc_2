@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name="box_red">
+    <static>true</static>
+    <link name="link">
+      <inertial>
+        <pose>0 0 0.1 0 0 0</pose>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.006667</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.01083</iyy>
+          <iyz>0</iyz>
+          <izz>0.01083</izz>
+        </inertia>
+      </inertial>
+      
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.3 0.2 0.2</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.3 0.2 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
