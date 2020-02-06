@@ -20,6 +20,7 @@ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
 
 cd
+
 #
 
 ※ simulation_mbzirc_release (world) is coded by HS Lee
