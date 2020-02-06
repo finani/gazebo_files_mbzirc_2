@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="mbzirc_uav_channel_2">
+    <static>true</static>
+    <link name="link1">
+	<pose frame=''>0.15 2.0 0.05 0 0.0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.3 3.9 0.01</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>0.3 3.9 0.01</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Grey</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="link2">
+	<pose frame=''>-0.04 2.0 0.11 0.0 -0.5 0.0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.01 3.9 0.15</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>0.01 3.9 0.15</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Grey</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="link3">
+	<pose frame=''>0.34 2.0 0.11 0.0 0.5 0.0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.01 3.9 0.15</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>0.01 3.9 0.15</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Grey</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

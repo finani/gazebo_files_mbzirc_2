@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="mbzirc_bin">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>10 0.5 3</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>10 0.5 3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/White</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

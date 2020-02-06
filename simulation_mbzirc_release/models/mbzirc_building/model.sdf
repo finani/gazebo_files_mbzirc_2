@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="mbzirc_building">
+    <static>true</static>
+	<link name='chassis1'>
+		<collision name='collision1'>
+			<geometry>
+				<mesh>
+				<scale>0.1 0.1 0.1</scale>
+				<uri>model://mbzirc_building/CH3_building.stl</uri></mesh>
+			</geometry>
+		</collision>
+
+		<visual name='visual1'>
+			<geometry>
+				<mesh>
+				<scale>0.1 0.1 0.1</scale>
+				<uri>model://mbzirc_building/CH3_building.stl</uri></mesh>
+			</geometry>
+		    <material>
+		      <script>
+		        <name>Gazebo/Grey</name>
+		        <uri>file://media/materials/scripts/gazebo.material</uri>
+		      </script>
+		    </material>
+		</visual>
+	</link>
+  </model>
+</sdf>
