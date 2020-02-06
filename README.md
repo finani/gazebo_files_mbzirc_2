@@ -9,10 +9,15 @@ gazebo models, worlds and launch files for MBZIRC mission 2
 
 
 \# Set PX4 - Mavros - Gazebo
+
 cd ~/catkin_ws/src/Firmware
+
 source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default
+
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
+
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
+
 cd
 
 
