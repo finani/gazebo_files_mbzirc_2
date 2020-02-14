@@ -19,7 +19,7 @@
 	  <pose> 10.0 -10.0 0.1 0 0 0 </pose>
     </include>
 
-    <include>
+    <include> 
       <name>box_red_1</name>
       <uri>model://mbzirc_box_red</uri>
       <pose>5 5 0.1 0 0 1.57079633</pose>
@@ -64,43 +64,43 @@
     <include>
       <name>box_green_1</name>
       <uri>model://mbzirc_box_green</uri>
-      <pose>5.15 6.4 0.1 0 0 1.</pose>
+      <pose>5.15 6.4 0.1 0 0 1.57079633</pose>
     </include>
     <include>
       <name>box_green_2</name>
       <uri>model://mbzirc_box_green</uri>
-      <pose>6.05 6.4 0.1 0 0 1.</pose>
+      <pose>6.05 6.4 0.1 0 0 1.57079633.</pose>
     </include>
     <include>
       <name>box_green_3</name>
       <uri>model://mbzirc_box_green</uri>
-      <pose>6.95 6.4 0.1 0 0 1.</pose>
+      <pose>6.95 6.4 0.1 0 0 1.57079633</pose>
     </include>
     <include>
       <name>box_green_4</name>
       <uri>model://mbzirc_box_green</uri>
-      <pose>7.85 6.4 0.1 0 0 1.</pose>
+      <pose>7.85 6.4 0.1 0 0 1.57079633</pose>
     </include>
 
     <include>
       <name>box_blue_1</name>
       <uri>model://mbzirc_box_blue</uri>
-      <pose>5.45 7.1 0.1 0 0 2.</pose>
+      <pose>5.45 7.1 0.1 0 0 1.57079633</pose>
     </include>
     <include>
       <name>box_blue_2</name>
       <uri>model://mbzirc_box_blue</uri>
-      <pose>6.85 7.1 0.1 0 0 2.</pose>
+      <pose>6.85 7.1 0.1 0 0 1.57079633</pose>
     </include>
     <include>
       <name>box_blue_3</name>
       <uri>model://mbzirc_box_blue</uri>
-      <pose>8.25 7.1 0.1 0 0 2.</pose>
+      <pose>8.25 7.1 0.1 0 0 1.57079633</pose>
     </include>
     <include>
       <name>box_blue_4</name>
       <uri>model://mbzirc_box_blue</uri>
-      <pose>9.65 7.1 0.1 0 0 2.</pose>
+      <pose>9.65 7.1 0.1 0 0 1.57079633</pose>
     </include>
 
 
@@ -124,6 +124,7 @@
       <uri>model://mbzirc_box_orange</uri>
       <pose>11.75 7.8 0.1 0 0 1.57079633</pose>
     </include>
+    
     <physics name='default_physics' default='0' type='ode'>
       <gravity>0 0 -9.8066</gravity>
       <ode>
