@@ -5,16 +5,25 @@
     <link name="link">
       <inertial>
         <pose>0.01 0.025 0.025 0 0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
-          <ixx>4.15e-6</ixx>
+          <ixx>1.0e-8</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>2.407e-6</iyy>
+          <iyy>1.0e-8</iyy>
           <iyz>0</iyz>
-          <izz>2.407e-6</izz>
+          <izz>1.0e-8</izz>
         </inertia>
       </inertial>
+
+      <collision name="collision">
+        <pose>0 0 0.0 0 0.0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 0.01 0.01</size>
+          </box>
+        </geometry>
+      </collision>
 
       <visual name="visual">
         <pose>0 0 0 0 0 0</pose>
@@ -48,7 +57,7 @@
           <pointCloudCutoffMax>20</pointCloudCutoffMax>
           <imageTopicName>color/image_raw</imageTopicName>
           <cameraInfoTopicName>color/camera_info</cameraInfoTopicName>
-          <depthImageTopicName>aligned_depth_to_color/image_raw</depthImageTopicName>
+          <depthImageTopicName>aligned_depth_to_color/image_raw_gazebo</depthImageTopicName>
           <depthImageCameraInfoTopicName>aligned_depth_to_color/camera_info</depthImageCameraInfoTopicName>
           <pointCloudTopicName>aligned_depth_to_color/points</pointCloudTopicName>
           <frameName>camera_link</frameName>

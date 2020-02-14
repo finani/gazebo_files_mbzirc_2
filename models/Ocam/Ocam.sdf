@@ -1,17 +1,17 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
   <model name="Ocam">
-    <pose>0 0 0.0 0 0 0</pose>
     <link name='link'>
       <inertial>
+        <pose>0 0 0.0 0 0 0</pose>
         <mass>0.001</mass>
         <inertia>
-          <ixx>4.15e-06</ixx>
+          <ixx>1.0e-8</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>2.407e-06</iyy>
+          <iyy>1.0e-8</iyy>
           <iyz>0</iyz>
-          <izz>2.407e-06</izz>
+          <izz>1.0e-8</izz>
         </inertia>
       </inertial>
 
@@ -70,7 +70,7 @@
         <plugin name='camera_controller' filename='libgazebo_ros_camera.so'>
 		      <!-- robotNamespace>uav21</robotNamespace -->
           <cameraName>camera</cameraName>
-          <imageTopicName>rgb/image_raw</imageTopicName>
+          <imageTopicName>image_rect_color</imageTopicName>
           <cameraInfoTopicName>rgb/camera_info</cameraInfoTopicName>
           <frameName>camera::link</frameName>
         </plugin>
