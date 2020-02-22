@@ -20,8 +20,9 @@
         </geometry>
         <material>
           <script>
-            <name>Gazebo/Yellow</name>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <uri>model://mbzirc_uav_channel_2/materials/scripts</uri>
+            <uri>model://mbzirc_uav_channel_2/materials/textures</uri>
+            <name>vrc/mesh</name>
           </script>
         </material>
       </visual>
@@ -44,7 +45,7 @@
         </geometry>
         <material>
           <script>
-            <name>Gazebo/Yellow</name>
+            <name>Gazebo/White</name>
             <uri>file://media/materials/scripts/gazebo.material</uri>
           </script>
         </material>
@@ -68,7 +69,7 @@
         </geometry>
         <material>
           <script>
-            <name>Gazebo/Yellow</name>
+            <name>Gazebo/White</name>
             <uri>file://media/materials/scripts/gazebo.material</uri>
           </script>
         </material>
