@@ -23,4 +23,4 @@ cd
 
 #
 
-※ simulation_mbzirc_release (world) is coded by HS Lee
+※ simulation_mbzirc_release (world) is built by HS Lee
