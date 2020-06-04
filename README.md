@@ -19,7 +19,3 @@ Firmware files(gazebo, launch) and darknet_ros files for MBZIRC mission 2
 source ~/catkin_ws/src/Firmware/Tools/setup_gazebo.bash ~/catkin_ws/src/Firmware ~/catkin_ws/src/Firmware/build/px4_sitl_default
 export ROS_PACKAGE_PATH=\$ROS_PACKAGE_PATH:~/catkin_ws/src/Firmware:~/catkin_ws/src/Firmware/Tools/sitl_gazebo
 ```
-
-#
-
-※ simulation_mbzirc_release (world) is built by HS Lee
