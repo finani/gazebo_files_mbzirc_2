@@ -1,11 +1,14 @@
 # gazebo_files_mbzirc_2
-gazebo models, worlds and launch files for MBZIRC mission 2
+Firmware files(gazebo, launch) and darknet_ros files for MBZIRC mission 2
 
-1. copy 'mavros_posix_sitl.launch' file to ~/Firmware/Launch/
+1. cp Firmware ~/catkin_ws/src/Firmware
 
-2. copy 'models' and 'worlds' folders to ~/Firmware/Tools/sitl_gazebo/
+2. cd darknet_ros/darknet_ros/yolo_network_config/weights && cat yolov3_mission2.tar.bz2.part* > yolov3_mission2.tar.bz2
 
-3. Add below to the ~/.bashrc
+3. tar -xvf yolov3_mission2.tar.bz2
+
+4. cp darknet_ros ~/catkin_ws/src/darknet_ros
+> Before you run the 4th command line, Go back to the root of the repository
 
 #
 
