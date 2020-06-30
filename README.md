@@ -1,7 +1,7 @@
 # gazebo_files_mbzirc_2
 Firmware files(gazebo, launch) and darknet_ros files for MBZIRC mission 2
 
-1. cp Firmware ~/catkin_ws/src/Firmware
+1. cp Firmware ~/catkin_ws/src/
 
 2. cd darknet_ros/darknet_ros/yolo_network_config/weights && cat yolov3_mission2.tar.bz2.part* > yolov3_mission2.tar.bz2
 
